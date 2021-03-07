@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C8521004250BBFE71E6241 /* Pods_iPhoneSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAFEC76117E93B514820D0A /* Pods_iPhoneSettings.framework */; };
 		52E6FB8C25D6BF78005C5581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FB8B25D6BF78005C5581 /* AppDelegate.swift */; };
 		52E6FB8E25D6BF78005C5581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FB8D25D6BF78005C5581 /* SceneDelegate.swift */; };
 		52E6FB9025D6BF78005C5581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FB8F25D6BF78005C5581 /* ViewController.swift */; };
 		52E6FB9325D6BF78005C5581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E6FB9125D6BF78005C5581 /* Main.storyboard */; };
 		52E6FB9525D6BF7B005C5581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E6FB9425D6BF7B005C5581 /* Assets.xcassets */; };
 		52E6FB9825D6BF7B005C5581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E6FB9625D6BF7B005C5581 /* LaunchScreen.storyboard */; };
+		52E6FBA625D6C1B5005C5581 /* BaseTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBA525D6C1B5005C5581 /* BaseTVCell.swift */; };
+		52E6FBAB25D6C1FF005C5581 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBAA25D6C1FF005C5581 /* Extensions.swift */; };
+		52E6FBBA25D6C6CC005C5581 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBB925D6C6CC005C5581 /* SettingsItem.swift */; };
+		52E6FBBF25D6C7A8005C5581 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBBE25D6C7A8005C5581 /* ProfileTableViewCell.swift */; };
+		52E6FBC725D6CE23005C5581 /* SettingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBC625D6CE23005C5581 /* SettingsTableView.swift */; };
+		52E6FBCA25D6D0D3005C5581 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6FBC925D6D0D3005C5581 /* ViewModel.swift */; };
+		52E88EA625ED54D000ECB62B /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E88EA525ED54D000ECB62B /* SpaceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FAFEC76117E93B514820D0A /* Pods_iPhoneSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E6FB8825D6BF78005C5581 /* iPhoneSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E6FB8B25D6BF78005C5581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E6FB8D25D6BF78005C5581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		52E6FB9425D6BF7B005C5581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E6FB9725D6BF7B005C5581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E6FB9925D6BF7B005C5581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E6FBA525D6C1B5005C5581 /* BaseTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseTVCell.swift; path = ../../../iPhoneSettings/iPhoneSettings/Base/BaseTVCell.swift; sourceTree = "<group>"; };
+		52E6FBAA25D6C1FF005C5581 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../iPhoneSettings/iPhoneSettings/Extensions/Extensions.swift; sourceTree = "<group>"; };
+		52E6FBB925D6C6CC005C5581 /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsItem.swift; path = ../../../iPhoneSettings/iPhoneSettings/Models/SettingsItem.swift; sourceTree = "<group>"; };
+		52E6FBBE25D6C7A8005C5581 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileTableViewCell.swift; path = ../../../../../iPhoneSettings/iPhoneSettings/Main/Views/TableViewCells/ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		52E6FBC625D6CE23005C5581 /* SettingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsTableView.swift; path = ../../../../../iPhoneSettings/iPhoneSettings/Main/Views/TableViewCells/SettingsTableView.swift; sourceTree = "<group>"; };
+		52E6FBC925D6D0D3005C5581 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = ../../../../iPhoneSettings/iPhoneSettings/Main/ViewControllers/ViewModel.swift; sourceTree = "<group>"; };
+		52E88EA525ED54D000ECB62B /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
+		721BADAF0E1A3EB5C6D90A86 /* Pods-iPhoneSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSettings.release.xcconfig"; path = "Target Support Files/Pods-iPhoneSettings/Pods-iPhoneSettings.release.xcconfig"; sourceTree = "<group>"; };
+		F840AC3B151A0ED2520447A9 /* Pods-iPhoneSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSettings.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSettings/Pods-iPhoneSettings.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C8521004250BBFE71E6241 /* Pods_iPhoneSettings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				52E6FB8A25D6BF78005C5581 /* iPhoneSettings */,
 				52E6FB8925D6BF78005C5581 /* Products */,
+				FCED346DCF7D87F572DE7195 /* Pods */,
+				E50C9D05D0D9415EECEF26D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,95 @@
 		52E6FB8A25D6BF78005C5581 /* iPhoneSettings */ = {
 			isa = PBXGroup;
 			children = (
+				52E6FBA325D6C192005C5581 /* Base */,
+				52E6FBA925D6C1D8005C5581 /* Extensions */,
+				52E6FBAD25D6C239005C5581 /* Models */,
+				52E6FBBC25D6C76A005C5581 /* Main */,
 				52E6FB8B25D6BF78005C5581 /* AppDelegate.swift */,
 				52E6FB8D25D6BF78005C5581 /* SceneDelegate.swift */,
-				52E6FB8F25D6BF78005C5581 /* ViewController.swift */,
 				52E6FB9125D6BF78005C5581 /* Main.storyboard */,
 				52E6FB9425D6BF7B005C5581 /* Assets.xcassets */,
 				52E6FB9625D6BF7B005C5581 /* LaunchScreen.storyboard */,
 				52E6FB9925D6BF7B005C5581 /* Info.plist */,
 			);
 			path = iPhoneSettings;
+			sourceTree = "<group>";
+		};
+		52E6FBA325D6C192005C5581 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBA525D6C1B5005C5581 /* BaseTVCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		52E6FBA925D6C1D8005C5581 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBAA25D6C1FF005C5581 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52E6FBAD25D6C239005C5581 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBB925D6C6CC005C5581 /* SettingsItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52E6FBAE25D6C473005C5581 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FB8F25D6BF78005C5581 /* ViewController.swift */,
+				52E6FBC925D6D0D3005C5581 /* ViewModel.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52E6FBAF25D6C4CE005C5581 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBBE25D6C7A8005C5581 /* ProfileTableViewCell.swift */,
+				52E88EA525ED54D000ECB62B /* SpaceTableViewCell.swift */,
+				52E6FBC625D6CE23005C5581 /* SettingsTableView.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		52E6FBB025D6C4E0005C5581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBAF25D6C4CE005C5581 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52E6FBBC25D6C76A005C5581 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52E6FBAE25D6C473005C5581 /* ViewControllers */,
+				52E6FBB025D6C4E0005C5581 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E50C9D05D0D9415EECEF26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFEC76117E93B514820D0A /* Pods_iPhoneSettings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCED346DCF7D87F572DE7195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F840AC3B151A0ED2520447A9 /* Pods-iPhoneSettings.debug.xcconfig */,
+				721BADAF0E1A3EB5C6D90A86 /* Pods-iPhoneSettings.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52E6FB9C25D6BF7B005C5581 /* Build configuration list for PBXNativeTarget "iPhoneSettings" */;
 			buildPhases = (
+				18F08A1294D43E2593D5CE0B /* [CP] Check Pods Manifest.lock */,
 				52E6FB8425D6BF78005C5581 /* Sources */,
 				52E6FB8525D6BF78005C5581 /* Frameworks */,
 				52E6FB8625D6BF78005C5581 /* Resources */,
+				465CFD3AFD4D032EA9D58D8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +235,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18F08A1294D43E2593D5CE0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneSettings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		465CFD3AFD4D032EA9D58D8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSettings/Pods-iPhoneSettings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSettings/Pods-iPhoneSettings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPhoneSettings/Pods-iPhoneSettings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52E6FB8425D6BF78005C5581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E6FBCA25D6D0D3005C5581 /* ViewModel.swift in Sources */,
+				52E6FBAB25D6C1FF005C5581 /* Extensions.swift in Sources */,
+				52E88EA625ED54D000ECB62B /* SpaceTableViewCell.swift in Sources */,
+				52E6FBBF25D6C7A8005C5581 /* ProfileTableViewCell.swift in Sources */,
+				52E6FBBA25D6C6CC005C5581 /* SettingsItem.swift in Sources */,
+				52E6FBC725D6CE23005C5581 /* SettingsTableView.swift in Sources */,
+				52E6FBA625D6C1B5005C5581 /* BaseTVCell.swift in Sources */,
 				52E6FB9025D6BF78005C5581 /* ViewController.swift in Sources */,
 				52E6FB8C25D6BF78005C5581 /* AppDelegate.swift in Sources */,
 				52E6FB8E25D6BF78005C5581 /* SceneDelegate.swift in Sources */,
@@ -283,6 +435,7 @@
 		};
 		52E6FB9D25D6BF7B005C5581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F840AC3B151A0ED2520447A9 /* Pods-iPhoneSettings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +454,7 @@
 		};
 		52E6FB9E25D6BF7B005C5581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721BADAF0E1A3EB5C6D90A86 /* Pods-iPhoneSettings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
